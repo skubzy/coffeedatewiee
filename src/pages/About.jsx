@@ -1,10 +1,6 @@
-import React from 'react'
-import Button from '../components/Button.jsx'
-
 export default function About() {
   return (
     <div className="about">
-         <Button />
       <h2>Your Project Page</h2>
       <p>
         Use this page to describe your project! You can rename it,
@@ -25,6 +21,5 @@ export default function About() {
         </div>
       </div>
     </div>
-    
   )
 }
